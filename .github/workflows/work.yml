@@ -1,0 +1,16 @@
+name: FeatureCI
+on:
+  push:
+    branches:
+      - feature/foo
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to feature/foo this time,
+        echo test, and deploy your project.
