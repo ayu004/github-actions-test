@@ -1,4 +1,4 @@
-name: MasterCI
+name: FeatureCI
 on:
   push:
     branches:
