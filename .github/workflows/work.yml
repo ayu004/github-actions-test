@@ -2,7 +2,8 @@ name: MasterCI
 on:
   push:
     branches:
-      - '*'
+      - master
+      - feature/foo
 jobs:
   build:
     runs-on: ubuntu-latest
