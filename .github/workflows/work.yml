@@ -1,4 +1,4 @@
-name: FeatureCI
+name: MasterCI
 on:
   push:
     branches:
@@ -12,5 +12,5 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        echo Add other actions to feature/foo this time,
+        echo Add other actions to feature/foo this time with action name same,
         echo test, and deploy your project.
